@@ -1,0 +1,129 @@
+* {
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg,rgba(212, 230, 18, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+
+}
+
+main {
+    width: 375px;
+    height: 712px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 44px 24px 23px;
+    margin-bottom: 64px;
+
+}
+
+.logo-gif {
+    width: 300px;
+    margin: 20px auto;
+    display: block;
+
+
+}
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+
+
+}
+
+select {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    cursor: pointer;
+
+
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+}
+
+button {
+    background: #772FD3;
+    border-radius: 5px;
+    height: 48px;
+    width: 100%;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 36px;
+    box-shadow: 3px 3px 10px #00000050;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1px;
+}
+
+.seta {
+    margin: 15px 15px;
+
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 1px;
+
+
+}
+
+.currency-name {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.currency-value, .currency-value-to-convert {
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+}
