@@ -55,19 +55,13 @@ O projeto foi construído puramente com tecnologias web fundamentais (Vanilla St
 
 ---
 
-## 🔧 Como Rodar o Projeto Localmente
+## 🔗 Link do Projeto
 
-1. **Clone o repositório** ou baixe os arquivos em seu computador:
-   ```bash
-   git clone https://github.com
-   ```
-2. **Navegue até a pasta do projeto**:
-   ```bash
-   cd conversion-king
-   ```
-3. **Abra o projeto**:
-   - Abra o arquivo `index.html` diretamente no seu navegador de preferência, ou:
-   - No VS Code, clique com o botão direito em `index.html` e selecione **Open with Live Server** (caso possua a extensão instalada).
+Você pode testar a aplicação funcionando em tempo real clicando no link abaixo:
+
+👉 **[Acesse o Conversion King aqui](https://reinaldosm.github.io/conversorMoedas/)**
+
+---
 
 ---
 
