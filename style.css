@@ -8,6 +8,19 @@
 
 body {
     background: linear-gradient(90deg,rgba(212, 230, 18, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    position: relative;
+    min-height: 100vh;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;     /* Distância do topo da tela */  /* Distância da lateral direita da tela */
+    margin-left: 15px;
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #4A4A4A;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
 
 }
 
@@ -126,4 +139,65 @@ section {
     color: #555555;
     font-weight: 700;
     font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 50px; /* Abre espaço para o título que descerá */
+    }
+
+    h1 {
+        position: absolute;
+        top: 25px;
+        right: 50%;
+        transform: translateX(50%); /* Centraliza perfeitamente no topo de qualquer celular/tablet */
+        width: 100%;
+        text-align: center;
+        font-size: 28px;
+        margin-left: 0;
+    }
+
+    main {
+        width: 85%; /* Ocupa as laterais de telas pequenas sem encostar nas bordas */
+        min-height: auto; /* Remove a altura mínima travada no mobile */
+        padding: 30px 18px;
+    }
+
+    .logo-gif {
+        max-width: 220px; /* Reduz ligeiramente a logo em telas menores */
+    }
+
+    /* Otimização para os dedos não errarem os campos no touch */
+    select, input, button {
+        height: 52px;
+        font-size: 16px; 
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        /* Adiciona espaço extra no topo caso o título precise descer */
+        padding-top: 120px; 
+    }
+
+    h1 {
+        position: absolute;
+        top: 30px;
+        right: 50%;
+        transform: translateX(50%); /* Centraliza o título no topo para não bater na logo lateralmente */
+        text-align: center;
+        width: 100%;
+        font-size: 36px;
+    }
+
+    main {
+        width: 95%; /* Deixa o card proporcional ao tamanho do tablet */
+        max-width: 375px; /* Mantém o limite visual elegante */
+        min-height: auto;
+        box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.12);
+    }
+
+    .logo-gif {
+        max-width: 260px; /* Reduz ligeiramente a logo para o tablet */
+    }
 }
