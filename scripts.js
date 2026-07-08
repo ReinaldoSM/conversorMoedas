@@ -110,7 +110,7 @@ function changeCurrencyConvert() {
 
     if(currencyConvertSelect.value === "Euro") {
         currencyNameConvert.innerHTML = "Euro"
-        currencyImageConvert.src = "./assets/img/euro.png"
+        currencyImageConvert.src = "./assets/img/Euro.png"
     }
 
     if(currencyConvertSelect.value === "Libra") {
@@ -140,7 +140,7 @@ function changeCurrency() {
 
     if(currencySelect.value === "Euro") {
         currencyName.innerHTML = "Euro"
-        currencyImage.src = "./assets/img/euro.png"
+        currencyImage.src = "./assets/img/Euro.png"
     }
 
     if(currencySelect.value === "Libra") {
